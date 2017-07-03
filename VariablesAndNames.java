@@ -3,14 +3,14 @@ public class VariablesAndNames
   public static void main ( String[] args )
   {
     //Declare int variables
-    int cars, drivers, passengers, cars_not_driven, cars_driven;
+    int cars, drivers, passengers, space_in_car, average_passengers_per_car, cars_not_driven, cars_driven;
 
     //Declare double variables
-    double space_in_car, carpool_capacity, average_passengers_per_car;
+    double carpool_capacity ;
 
     //Initialize variables with a value
     cars = 100;
-    space_in_car = 4.0;
+    space_in_car = 4;
     drivers = 30;
     passengers = 90;
     cars_not_driven = cars - drivers;
@@ -22,6 +22,6 @@ public class VariablesAndNames
     System.out.println("There are " + cars + " cars available.");
     System.out.println("There are only " + drivers + " drivers available.");
     System.out.println("There will be " + cars_not_driven + " empty cars today.");
-    System.out.println("We need to put about " + average_passengers_per_car + " in each car.");
+    System.out.println("We need to put about " + average_passengers_per_car + " people in each car.");
   }
 }
